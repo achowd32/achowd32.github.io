@@ -1,0 +1,28 @@
+/* jetbrains mono */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #2b2b2b; /* dark grey */
+    color: #ffffff; /* default white */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #89CFF0; /* light blue */
+    margin-top: 1.5em;
+}
+
+a {
+    color: #89CFF0; /* light blue */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* paragraph spacing */
+p {
+    line-height: 1.6;
+}
