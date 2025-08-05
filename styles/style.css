@@ -2,83 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
 body {
-    font-family: 'JetBrains Mono', monospace;
-    background-color: #2b2b2b; /* dark grey */
-    color: #ffffff; /* default white */
-    margin: 0.25em;
-    padding: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #2b2b2b; /* dark grey */
+  color: #ffffff; /* default white */
+  margin: 0.25em;
+  padding: 20px;
 }
 
 a {
-    color: #89CFF0; /* light blue */
-    text-decoration: none;
+  color: #89CFF0; /* light blue */
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* specific characteristics */
 
 .light-blue {
-    color: #89CFF0;
+  color: #89CFF0;
 }
 
 .no-margin {
-    margin: 0em;
+  margin: 0em;
 }
 
 /* profile */
 .profile{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info{
-    padding-left: 24px;
-    width: 600px;
+  font-size: 20px;
+  padding-left: 24px;
+}
+
+.info h1 {
+  font-size: 54px;
+}
+
+.info h3 {
+  font-size: 32px;
 }
 
 .pfp {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+}
+
+@media (max-width: 915px){
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .info {
+    text-align: center;
+  }
 }
 
 /* projects */
 
 .project-header {
-    margin: 0 auto;
-    justify-content: center;
-    display: flex;
-    padding-top: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
 }
 
 .project-wrapper {
-    width: 924px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 310px));
+  justify-content: space-evenly;
 }
 
 .project-card {
-    width: 290px;
-    padding-top: 15px;
+  width: 310px;
+  padding-top: 30px;
 }
 
 .card-img {
-    width: 100%;
-    height: 150px;
-    display: block;
-    padding-bottom: 0;
+  width: 100%;
+  height: 175px;
+  display: block;
+  padding-bottom: 0;
 }
 
 .card-bottom {
-    background-color: black;
-    height: 175px;
-    padding: 15px;
+  background-color: black;
+  height: 175px;
+  padding: 15px;
 }
 
 .card-bottom p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
