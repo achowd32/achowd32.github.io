@@ -4,9 +4,92 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
   <body>
-    <h1> Hello World </h1>
-    <p> Hi, I'm Atharv Chowdhary! </p>
+    <!-- SECTION ONE: PROFILE -->
+    <div class="profile">
+      <!-- profile picture -->
+      <img src="assets/pfp.png" class="pfp">
+      
+      <!-- text info -->
+      <div class="info">
+        <h1 class="light-blue no-margin"> Atharv Chowdhary </h1>
+        <h3 class="no-margin"> APMA-CS @ Brown University </h3>
+        <p class="intro"> Hey, I'm Atharv, a second-year at Brown University interested in applied mathematics, computer science, and computer engineering. In my time at Brown, I plan to explore a variety of subfields within these domains, from machine learning to digital logic to programming languages. I'm often working on personal projects, and I've also been involved with Brown Space Engineering and the <a href="https://atlas.cs.brown.edu/">ATLAS group</a>. In my free time, I enjoy watching movies, learning trivia, and playing badminton.</p>
+
+        <!-- links -->
+        <a class="gh" href="https://github.com/achowd32" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> <span>github</span>
+        </a> <span> | </span>
+        <a class="ln" href="https://www.linkedin.com/in/atharv-chowdhary-2b1b2730a/" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin icon"></i> <span>linkedin</span>
+        </a><span> | </span>
+        <a class="lb" href="https://boxd.it/6Hqqb" target="_blank" rel="noopener">
+            <i class="fa-brands fa-letterboxd icon"></i>
+            <span>letterboxd</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- SECTION TWO: PROJECTS -->
+  <h1 class="project-header light-blue"> Projects </h1>
+  <div class="project-wrapper">
+    <!-- PROJECT ONE -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin">
+          <a href="https://github.com/achowd32/jsGPT" target="_blank"> jsGPT </a>
+        </h3>
+        <p> Two implementations of the NanoGPT architecture in TensorflowJS, with both the Layers and Models API.</p>
+      </div>
+    </div>
+    <!-- PROJECT TWO -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin">
+          <a href="https://github.com/achowd32/sheLLM" target="_blank"> sheLLM </a>
+        </h3>
+        <p> A pipeline for training LLMs in the shell in a streaming fashion. Created for both research and pedagogical purposes. </p>
+      </div>
+    </div>
+    <!-- PROJECT THREE -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin">
+          <a href="https://github.com/achowd32/assert-bench" target="_blank"> AssertBench </a>
+        </h3>
+        <p> Directional‑framing stress‑test for factual consistency in large language models. Pre-print <a href="https://arxiv.org/abs/2506.11110" target="_blank">available</a> on arxiv. </p>
+      </div>
+    </div>
+    <!-- PROJECT FOUR -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin">
+          <a href="https://github.com/achowd32/ocean-qap" target="_blank"> Ocean-QAP </a>
+        </h3>
+        <p> Python library which uses D-Wave's quantum annealing system to solve time-dependent quadratic assignment problems. Created for IQuHack 2025. </p>
+      </div>
+    </div>
+    <!-- PROJECT FIVE -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin"> QHarmony </h3>
+      </div>
+    </div>
+    <!-- PROJECT SIX -->
+    <div class="project-card">
+      <img class="card-img" src="assets/white.jpg">
+      <div class="card-bottom">
+        <h3 class="light-blue no-margin"> Inkbound </h3>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
