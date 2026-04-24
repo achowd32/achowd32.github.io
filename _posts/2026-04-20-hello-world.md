@@ -1,9 +1,7 @@
 ---
-title: "Hello, world"
+title: "Hello World"
 date: 2026-04-20
 ---
-
-Welcome to the blog. This is a placeholder post — delete it and drop your own Markdown files in `_posts/` using the `YYYY-MM-DD-title.md` naming convention.
 
 ## Writing posts
 
