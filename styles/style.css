@@ -77,33 +77,63 @@ a:hover {
   padding-top: 20px;
 }
 
-.project-wrapper {
+.project-list {
+  max-width: 1000px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 310px));
-  justify-content: space-evenly;
 }
 
-.project-card {
-  width: 310px;
-  padding-top: 30px;
+.project-entry {
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
 }
 
-.card-img {
-  width: 100%;
-  height: 175px;
-  display: block;
-  padding-bottom: 0;
+.project-entry:last-child {
+  border-bottom: none;
 }
 
-.card-bottom {
-  background-color: black;
-  height: 175px;
-  padding: 15px;
+.project-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
-.card-bottom p {
-  margin-top: 10px;
+.project-name {
+  font-size: 22px;
+}
+
+.project-meta {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.project-meta a {
+  color: #888;
+}
+
+.project-meta a:hover {
+  color: #89CFF0;
+}
+
+.project-tags {
+  margin: 8px 0;
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #aaa;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 2px 8px;
+  margin-right: 6px;
+  border-radius: 3px;
+}
+
+.project-desc {
+  margin: 0;
+  color: #ddd;
 }
 
 /* home sections */
@@ -147,9 +177,8 @@ a:hover {
   margin-top: 12px;
 }
 
-.home-section .project-wrapper {
+.home-section .project-list {
   margin: 0;
-  justify-content: space-between;
 }
 
 .home-post-list {

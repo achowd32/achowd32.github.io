@@ -31,9 +31,10 @@ title: Home
 <section class="home-section">
   <h2 class="section-header light-blue">Currently</h2>
   <ul class="currently-list">
-    <li>Second-year at Brown, taking coursework across applied math, CS, and engineering.</li>
-    <li>Working with the <a href="https://atlas.cs.brown.edu/">ATLAS group</a> on research in programming languages.</li>
-    <li>Tinkering with small ML projects on the side — most recently, shell-native LLM training.</li>
+    <li>Wrapping up coursework in computer architecture and VLSI design.</li>
+    <li>Working with the <a href="https://atlas.cs.brown.edu/">ATLAS group</a> on research in programming languages and computer systems.</li>
+    <li>Preparing to start research with the <a href="https://www.saliganelab.com/">ReaLLMASIC lab</a> on high level synthesis and chip design for ML.</li>
+    <li>Developing a compiler with an LLVM backend as a personal project.</li>
   </ul>
   <p class="section-updated">Last updated April 2026</p>
 </section>
@@ -44,33 +45,46 @@ title: Home
     <h2 class="section-header light-blue no-margin">Selected Work</h2>
     <a class="section-more" href="{{ '/projects/' | relative_url }}">all projects →</a>
   </div>
-  <div class="project-wrapper">
-    <div class="project-card">
-      <img class="card-img" src="{{ '/assets/white.jpg' | relative_url }}">
-      <div class="card-bottom">
-        <h3 class="light-blue no-margin">
-          <a href="https://github.com/achowd32/assert-bench" target="_blank"> AssertBench </a>
+  <div class="project-list">
+    <div class="project-entry">
+      <div class="project-title-row">
+        <h3 class="project-name light-blue no-margin">
+          <a href="https://github.com/achowd32/assert-bench" target="_blank">AssertBench</a>
         </h3>
-        <p> Directional-framing stress-test for factual consistency in LLMs. Pre-print on <a href="https://arxiv.org/abs/2506.11110" target="_blank">arXiv</a>.</p>
+        <span class="project-meta">2025 · <a href="https://github.com/achowd32/assert-bench" target="_blank">github</a> · <a href="https://arxiv.org/abs/2506.11110" target="_blank">arXiv</a></span>
       </div>
+      <div class="project-tags">
+        <span class="project-tag">research</span>
+        <span class="project-tag">llm</span>
+      </div>
+      <p class="project-desc">Directional-framing stress-test for factual consistency in large language models.</p>
     </div>
-    <div class="project-card">
-      <img class="card-img" src="{{ '/assets/white.jpg' | relative_url }}">
-      <div class="card-bottom">
-        <h3 class="light-blue no-margin">
-          <a href="https://github.com/achowd32/jsGPT" target="_blank"> jsGPT </a>
+    <div class="project-entry">
+      <div class="project-title-row">
+        <h3 class="project-name light-blue no-margin">
+          <a href="https://github.com/achowd32/jsGPT" target="_blank">jsGPT</a>
         </h3>
-        <p> Two implementations of the NanoGPT architecture in TensorflowJS, using the Layers and Models APIs.</p>
+        <span class="project-meta"><a href="https://github.com/achowd32/jsGPT" target="_blank">github</a></span>
       </div>
+      <div class="project-tags">
+        <span class="project-tag">ml</span>
+        <span class="project-tag">web</span>
+      </div>
+      <p class="project-desc">Two implementations of the NanoGPT architecture in TensorflowJS, using the Layers and Models APIs.</p>
     </div>
-    <div class="project-card">
-      <img class="card-img" src="{{ '/assets/white.jpg' | relative_url }}">
-      <div class="card-bottom">
-        <h3 class="light-blue no-margin">
-          <a href="https://github.com/achowd32/ocean-qap" target="_blank"> Ocean-QAP </a>
+    <div class="project-entry">
+      <div class="project-title-row">
+        <h3 class="project-name light-blue no-margin">
+          <a href="https://github.com/achowd32/ocean-qap" target="_blank">Ocean-QAP</a>
         </h3>
-        <p> Python library using D-Wave's quantum annealer to solve time-dependent quadratic assignment problems. Built for IQuHack 2025.</p>
+        <span class="project-meta">2025 · <a href="https://github.com/achowd32/ocean-qap" target="_blank">github</a></span>
       </div>
+      <div class="project-tags">
+        <span class="project-tag">quantum</span>
+        <span class="project-tag">optimization</span>
+        <span class="project-tag">hackathon</span>
+      </div>
+      <p class="project-desc">Python library using D-Wave's quantum annealer to solve time-dependent quadratic assignment problems. Built for IQuHack 2025.</p>
     </div>
   </div>
 </section>
