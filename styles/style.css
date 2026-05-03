@@ -1,5 +1,7 @@
 /* jetbrains mono */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+/* crimson pro — used for epigraphs */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400&display=swap');
 
 body {
   font-family: 'JetBrains Mono', monospace;
@@ -29,27 +31,29 @@ a:hover {
 
 /* profile */
 .profile{
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .info{
-  font-size: 20px;
+  font-size: 17px;
   padding-left: 24px;
 }
 
 .info h1 {
-  font-size: 54px;
+  font-size: 48px;
 }
 
 .info h3 {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .pfp {
-  width: 340px;
-  height: 340px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -73,31 +77,227 @@ a:hover {
   padding-top: 20px;
 }
 
-.project-wrapper {
+.project-list {
+  max-width: 1000px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 310px));
-  justify-content: space-evenly;
 }
 
-.project-card {
-  width: 310px;
-  padding-top: 30px;
+.project-entry {
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
 }
 
-.card-img {
-  width: 100%;
-  height: 175px;
+.project-entry:last-child {
+  border-bottom: none;
+}
+
+.project-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project-name {
+  font-size: 22px;
+}
+
+.project-meta {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.project-meta a {
+  color: #888;
+}
+
+.project-meta a:hover {
+  color: #89CFF0;
+}
+
+.project-tags {
+  margin: 8px 0;
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #aaa;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 2px 8px;
+  margin-right: 6px;
+  border-radius: 3px;
+}
+
+.project-desc {
+  margin: 0;
+  color: #ddd;
+}
+
+/* home sections */
+
+.home-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.section-header {
+  font-size: 32px;
+  margin: 0 0 16px 0;
+}
+
+.section-head-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section-more {
+  font-size: 16px;
+}
+
+.currently-list {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.currently-list li {
+  padding: 4px 0;
+}
+
+.section-updated {
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 12px;
+}
+
+.home-section .project-list {
+  margin: 0;
+}
+
+.home-post-list {
+  margin: 0;
+}
+
+/* nav */
+
+.site-nav {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.site-nav a {
+  margin: 0 4px;
+}
+
+/* blog */
+
+.blog-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #444;
+}
+
+.post-date {
+  color: #888;
+  font-size: 0.9em;
+  margin-right: 12px;
+}
+
+.post-excerpt {
+  color: #ccc;
+  margin-top: 8px;
+  font-size: 0.95em;
+}
+
+/* post */
+
+article.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  line-height: 1.6;
+}
+
+article.post .post-date {
   display: block;
-  padding-bottom: 0;
+  margin: 8px 0 24px 0;
 }
 
-.card-bottom {
-  background-color: black;
-  height: 175px;
-  padding: 15px;
+.post-subtitle {
+  color: #bbb;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 4px 0 0 0;
+  line-height: 1.4;
 }
 
-.card-bottom p {
-  margin-top: 10px;
+.post-content h2 {
+  color: #89CFF0;
+  font-size: 1.5em;
+  margin: 36px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #444;
+}
+
+.post-content h3 {
+  color: #89CFF0;
+  font-size: 1.2em;
+  margin: 28px 0 8px 0;
+}
+
+.post-content pre {
+  background: #1a1a1a;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.post-content code {
+  background: #1a1a1a;
+  padding: 2px 6px;
+}
+
+.post-content pre code {
+  padding: 0;
+}
+
+.post-back {
+  margin-top: 40px;
+}
+
+.post-epigraph {
+  font-family: 'Crimson Pro', Georgia, serif;
+  color: #888;
+  font-size: 1.05em;
+  line-height: 1.55;
+  margin: 0 0 32px 0;
+  padding-left: 16px;
+  border-left: 2px solid #444;
+}
+
+.post-epigraph p {
+  margin: 0 0 8px 0;
+}
+
+.epigraph-attribution {
+  display: block;
+  font-style: normal;
+  font-size: 0.95em;
+  color: #666;
 }

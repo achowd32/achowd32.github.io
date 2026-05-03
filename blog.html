@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="blog-wrapper">
+  <h1 class="light-blue">Blog</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-list-item">
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.excerpt %}
+          <div class="post-excerpt">{{ post.excerpt | strip_html }}</div>
+        {% endif %}
+      </li>
+    {% else %}
+      <li>No posts yet — check back soon.</li>
+    {% endfor %}
+  </ul>
+</div>
