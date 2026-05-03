@@ -211,6 +211,28 @@ article.post .post-date {
   margin: 8px 0 24px 0;
 }
 
+.post-subtitle {
+  color: #bbb;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 4px 0 0 0;
+  line-height: 1.4;
+}
+
+.post-content h2 {
+  color: #89CFF0;
+  font-size: 1.5em;
+  margin: 36px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #444;
+}
+
+.post-content h3 {
+  color: #89CFF0;
+  font-size: 1.2em;
+  margin: 28px 0 8px 0;
+}
+
 .post-content pre {
   background: #1a1a1a;
   padding: 12px;
