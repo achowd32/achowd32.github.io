@@ -10,13 +10,15 @@ date: 2026-04-20
 <span class="epigraph-attribution">— Cop 223, <em>Chungking Express</em></span>
 </div>
 
-I remember quite distinctly how I was introduced to the word "melancholy": <elaborate>. At the time, of course, it was quite hard for me to understand or relate to this in any direct sense. As the years passed, however, I found myself feeling what must have been melancholy increasingly often, most often in the form of nostalgia for schooldays gone by, or sometimes from the heartbreak that comes with unrequited feelings or a romance let go. I'm now thousands of melancholic experiences deep, and I've come to a profound conclusion: I <em>love</em> melancholy.
+I posit that there are two kinds of emotions: "simple" emotions, and "complex" emotions.
 
-I truly think melancholy is my favorite emotion. Of course, I would not want to experience melancholy all the time. In fact, I don't even want to experience it any more than I already do. But melancholy carries a kind of beauty and fulfillment that no other emotion is quite able to match, and it thus delivers for me more satisfaction than any other emotion. <elaborate>
+Simple emotions like happiness, anger, sadness, or excitement are easily understood by the rational mind. They often have a clear cause, and they often result in very predictable behaviors. For instance, a simple emotion like happiness might very obviously be caused by, say, doing well at an interview you cared about, or being asked out by the person you've been crushing on for months. Happiness-induced behaviors are indeed quite predictable and quite identifiable: a happy person is likely to smile or laugh more, treat others with more kindness, and approach life with more confidence.
 
-For many years, I've struggled to understand this weird relationship I have to melancholy; why am I so in love with this pensive, bittersweet emotion that can't come close to the highs of happiness or the passion of romantic love? As I thought more and more about this over the years, I accumulated more thoughts than I know what to do with, and I hope now to expel them onto this essay, as I make my best attempt to intellectualise my love for melancholy.
+Complex emotions are, of course, the opposite. When we experience something more complex, like remorse, awe, or (at least in some cases) even love, we struggle to rationalise them. When I feel one of these emotions, I often have absolutely no idea why. Even if I am able to identify some occurrence in my life that sparked a complex emotion, it's often very unintuitive to me why said occurrence lead to said emotion (I'll give examples of this later). Worse yet, complex emotions seem to induce in me all kinds of behaviors, none of which I (or likely even a close friend of mine) could reliably predict.
 
-## Melancholy and Complexity
+Despite all that, I love complex emotions, and I far prefer them to simple emotions. Some reasons for this are obvious and probably warrant no further explanation: complex emotions offer a chance to introspect and reflect on life in a way that simple emotions do not, therefore also offering more chance at growth and development as a person. These are not the claims with which I concern myself in this essay. Rather, I want to explain why I find complex emotions more <em>beautiful</em>; the topic with which I am concerned is thus an aesthetic one, not a pragmatic one. I cannot unpack this any further as it stands, but I hope you come to see what I mean as we go through the essay.
+
+## So what is emotional complexity anyways?
 
 I want to assert, first and foremost, that melancholy is a deeply complex emotion. There are obvious ways in which this is true; for instance, melancholy is a combination of many different, simpler emotions. Humans often take a set of emotions that we assume everyone basically understands ("simple" emotions like happiness or anger), and limit our description of more complex emotions to combinations of these simple emotions ("contempt is sort of like feeling anger and disgust at the same time"). Some of you with an interest in math might appreciate the analogy that humans talk about emotions as points on an infinite, high-dimensional vector space where the chosen basis is the set of essentially "simple" and "orthogonal" emotions (e.g. happiness and anger). And, yes, melancholy absolutely falls into this category of complex emotions; I even remember learning of melancholy as the emotion that feels like being happy and sad at the same time.
 
@@ -39,6 +41,8 @@ When I say "we" in the sentence above, I really mean "I", because I may not know
 Films like Chungking Express provide a powerful form of catharsis because they allow watchers to experience and expel emotions that are otherwise so complex they cannot even begin to understand them.
 
 Melancholy is often our hearts' attempt at intuiting emotionally the complexities of life that we otherwise struggle to confront. We may struggle to reconcile the bigness of a small moment. We may struggle to reconcile longing when we feel perfectly happy.
+
+I don't imagine this is a particularly unpopular opinion. I recently polled my friends on whether they prefer simple or complex emotions, and of the 10 responses (myself included) I got, there was a 6-4 split in favor of complex emotions. Therefore, I don't quite imagine 
 
 I've always loved art that can combine complex emotions
 
