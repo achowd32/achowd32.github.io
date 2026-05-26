@@ -262,6 +262,88 @@ article.post .post-date {
   margin: 28px 0 8px 0;
 }
 
+.post-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 24px 0;
+}
+
+.post-content figure {
+  margin: 24px 0;
+}
+
+.post-content figure img {
+  margin: 0;
+}
+
+.post-content figcaption {
+  color: #888;
+  font-size: 0.85em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.image-quote {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.image-quote-img {
+  flex: 0 0 60%;
+  margin: 0;
+}
+
+.post-content .image-quote-img img {
+  margin: 0;
+}
+
+.image-quote-text {
+  flex: 1;
+  margin: 0;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 1.17em;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.image-quote-text p {
+  margin: 0;
+}
+
+.image-quote-text cite {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.8em;
+  font-style: normal;
+  color: #888;
+}
+
+.image-quote-text .image-caption {
+  margin-top: 18px;
+  font-size: 0.72em;
+  font-style: italic;
+  color: #777;
+}
+
+.image-quote-text .caption-label {
+  font-style: normal;
+  color: #9ab;
+}
+
+@media (max-width: 600px) {
+  .image-quote {
+    flex-direction: column;
+  }
+  .image-quote-img {
+    flex: none;
+    width: 100%;
+  }
+}
+
 .post-content pre {
   background: #1a1a1a;
   padding: 12px;
