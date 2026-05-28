@@ -408,3 +408,56 @@ article.post .post-date {
   font-size: 0.95em;
   color: #666;
 }
+
+/* footnotes (kramdown-generated) */
+
+/* the [^n] marker in the body */
+.post-content sup[role="doc-noteref"] {
+  font-size: 0.7em;
+  line-height: 0;
+}
+
+.post-content a.footnote {
+  padding: 0 1px;
+}
+
+/* the footnote list at the bottom of the post */
+.post-content .footnotes {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid #444;
+  font-size: 0.85em;
+  color: #999;
+}
+
+/* undo the custom .post-content ol counter styling for footnotes */
+.post-content .footnotes ol {
+  list-style: decimal;
+  counter-reset: none;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.post-content .footnotes ol > li {
+  counter-increment: none;
+  position: static;
+  padding-left: 6px;
+  margin-bottom: 8px;
+  color: #999;
+}
+
+.post-content .footnotes ol > li::marker {
+  color: #89CFF0;
+}
+
+.post-content .footnotes ol > li::before {
+  content: none;
+}
+
+.post-content .footnotes p {
+  margin: 0;
+}
+
+.post-content .footnotes .reversefootnote {
+  margin-left: 6px;
+}
