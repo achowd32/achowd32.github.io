@@ -1,6 +1,7 @@
 ---
-title: "Hello World"
+title: "Starting to Write"
 date: 2026-05-03
+description: "On starting a blog and why I want to write publicly."
 ---
 
 ## Why did I choose to start writing here?

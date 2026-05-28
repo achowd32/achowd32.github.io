@@ -10,8 +10,9 @@ permalink: /blog/
       <li class="post-list-item">
         <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% if post.excerpt %}
-          <div class="post-excerpt">{{ post.excerpt | strip_html }}</div>
+        {% assign blurb = post.description | default: post.excerpt %}
+        {% if blurb %}
+          <div class="post-excerpt">{{ blurb | strip_html }}</div>
         {% endif %}
       </li>
     {% else %}

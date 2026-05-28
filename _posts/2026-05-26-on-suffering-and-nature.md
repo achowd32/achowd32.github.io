@@ -1,7 +1,8 @@
 ---
 title: "On Suffering and Nature"
-subtitle: ""
-date: 2026-05-26
+subtitle: "This post is currently a draft! Will be updated soon."
+description: "On the quiet conflict between our aversion to suffering and our reverence for nature."
+date: 2026-05-28
 ---
 
 <div class="image-quote">
@@ -40,7 +41,7 @@ These are not instances of suffering that happen, incidentally, to be a part of 
 
 There is an aesthetic point to be made here: if suffering is so deeply embedded in nature that it is often far-fetched to divorce the two, musn't this recontextualize the way we experience beauty in nature? With this knowledge I can no longer stand atop a mountain and gaze at the beauty of the forest below without realizing its inhabitants must one day burn for its continued existence. But alas aesthetics does not operate within the domain of logic; no amount of contemplation on suffering could <i>entirely</i> change the visceral reaction I have to its beauty, nor do I particularly want it to.
 
-So perhaps the more salient point to be made here is the ethical one. What amounts to the romanticization of nature in the aesthetic domain is paralleled by our deification of the natural order in the ethical domain. That is to say, we instinctively enshrine the natural order — the natural processes by which humans are unaffected — as a good in and of itself. At the very least, most people view a natural state of affairs as an acceptable one. And the acceptance or rejection of this doctrine has significant consequences for our moral worldview.
+So perhaps the more salient point to be made here is the ethical one. What amounts to the romanticization of nature in the aesthetic domain is paralleled by our deification of the natural order in the ethical domain. That is to say, we instinctively enshrine the natural order — the natural processes by which humans are (largely) unaffected — as a good in and of itself. At the very least, most people view a natural state of affairs as an acceptable one. And the acceptance or rejection of this doctrine has significant consequences for our moral worldview.
 
 Following certain conventions in other disciplines of philosophy, and because I think it sounds satisfactorily pretentious, I want to distinguish between "easy" and "hard" problems in animal ethics. An example of an easy problem is that of meat eating and factory farming; I have not heard a good argument for the continued existence of either, and quite frankly I doubt they exist. This is partly an easy problem because, in addition to the suffering being so gratuitous, it is notably <i>artificial</i>. Even many of those who support meat-eating in light of it being "natural" are appalled by the horrors of factory farming (given that they care about animals in the slightest). This is precisely because factory farming is an artificial abomination, engineered by humans to cause billions of sentient beings to suffer artificially.
 
@@ -61,9 +62,19 @@ And even though I disagree with them, I completely understand where they're comi
 
 Some of you may still think it silly to devote so much time to a question that, for all intents and purposes, can have no worldly impact today. Let us consider, then, another hard problem in animal ethics: the construction of vivariums. Here, I am not talking about vivariums used for scientific research or vivariums that house an animal which lives a life of peace and stability. Rather, I'm talking specifically about a hobbyist's construction of a vivarium that is <i>designed to simulate as precisely as possible the conditions of the natural world</i>. And this isn't a particularly uncommon occurrence either: there is a thriving community of vivarium enthusiasts active on platforms like YouTube. Popular vivarium YouTuber <a href="https://www.youtube.com/@AntsCanada/videos">AntsCanada</a> regularly uploads videos to millions of views, on his channel with nearly 7 million subscribers!
 
-In these vivarium/terrarium/aquarium construction and maintenance videos, we often see the creation of an artificial ecosystem, complete with predators and all. When a population of fish is getting out of control, for instance, the aquarium builder may introduce a few of their predators to maintain equilibrium in the tank.
+In these vivarium/terrarium/aquarium construction and maintenance videos, we often see the creation of an artificial ecosystem, complete with predators and all. The aquarium builder may source a fish species from a breeder, add them to a tank, and allow them to breed undisturbed. When the population gets out of hand, as expected, the builder introduces a predator species to maintain equilibrium in the tank. And not once have I seen this identified as unethical![^viv] In what meaningful sense is this different from allowing your pet rabbits to breed uncontrollably, and unleashing a wolf in their habitat to stabilise the population?! As an even more ludicrous example, would we be okay with a hyper-advanced alien civilization kidnapping a human from the 21st century, and dropping him into a recreation of the stone age??
+
+[^viv]: There are certainly ways of constructing a vivarium that I do not find morally disturbing; for instance, if the animals are sourced from the wild and not from a breeder, vivarium construction becomes a morally neutral act. Ultimately, the question of the morality of vivarium building is another subject that deserves far more extensive discussion than I can afford here. Suffice it to say that I am troubled by the way in which many people go about vivarium construction; I would encourage you to think about the matter further on your own.
+
+I suspect the added suffering to the tank is not identified as problematic precisely because it is <i>natural</i>; to recreate the natural order is not a sin. In this instance, our inner battle of ideals has a clear victor: our affinity for the natural triumphs over our hatred for suffering. In fact, I suspect many of you whose intuitions accord with these are not swayed by the rabbit-wolf example, and are only challenged by the human-stone age example because we've come to view humans as existing outside of the natural order.[^hum]
+
+[^hum]: This is precisely why I identified the natural order as "the natural processes by which humans are (largely) unaffected".
+
+I have little else to say on the relationship between nature and suffering except to lament their tragic relationship to human intuition. Evolution is a devious thing which has imparted two conflicting instincts in our heads, for evolution cares little about moral consistency. A subtly insidious moral nature may well be a winning strategy in the game of survival. Coming to realise, over these past few weeks, that such an insidious nature dwells also within myself has been disconcerting, to say the least. Much of this post was about coming to terms with my own thoughts and intuitions, and understanding the importance of taking them seriously in a moral context. If nothing else, I hope it helps you do the same.
 
 <!-- That they can simultaneously exist in so many people is a testament to just how subtly insidious our nature truly is.
+
+I hope, by this point, that I have convinced you of two major points. Firstly, that most humans simultaneously maintain a positive disposition toward the natural order and a negative disposition toward suffering, two ideals that live in conflict with one another. Secondly, that the simultaneous existence of these ideals is not just morally relevant, but often morally troubling, leading us to make ignorant moral judgements.
 
 that nature is ugly applies to animals in and of themselves too
 the deification of the natural order may well also be why so many are comfortable eating meat
