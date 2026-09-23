@@ -11,7 +11,7 @@ title: Home
   <div class="info">
     <h1 class="light-blue no-margin"> Atharv Chowdhary </h1>
     <h3 class="no-margin"> Computer Engineering @ Brown University </h3>
-    <p class="intro"> I'm a second-year at Brown University studying computer engineering, with further interests in mathematics, physics, and philosophy. In my time at Brown, I plan to explore a variety of subfields within computer engineering, from computer architecture to programming languages to machine learning. I'm often working on personal projects, and I've also been involved with Brown Space Engineering and the <a href="https://atlas.cs.brown.edu/">ATLAS group</a>. In my free time, I enjoy watching movies, learning trivia, worldbuilding, and exercising.</p>
+    <p class="intro"> I'm a second-year at Brown University primarily interested in programming languages, digital hardware design, and computer systems. In particular, I am interested in using programming languages to engineer better hardware and low-level software. During my time at Brown, I have been involved with the <a href="https://atlas.cs.brown.edu/">ATLAS Group</a> and the <a href="https://www.saliganelab.com">ReaLLMASIC Lab</a>. In my free time, I enjoy watching movies, learning trivia, worldbuilding, and gymming.</p>
 
     <!-- links -->
     <a class="gh" href="https://github.com/achowd32" target="_blank" rel="noopener">
@@ -27,19 +27,7 @@ title: Home
   </div>
 </div>
 
-<!-- SECTION TWO: CURRENTLY -->
-<section class="home-section">
-  <h2 class="section-header light-blue">Currently</h2>
-  <ul class="currently-list">
-    <li>Wrapping up coursework in computer architecture and VLSI design.</li>
-    <li>Working with the <a href="https://atlas.cs.brown.edu/">ATLAS group</a> on research in programming languages and computer systems.</li>
-    <li>Preparing to start research with the <a href="https://www.saliganelab.com/">ReaLLMASIC lab</a> on high level synthesis and chip design for ML.</li>
-    <li>Developing a compiler with an LLVM backend as a personal project.</li>
-  </ul>
-  <p class="section-updated">Last updated April 2026</p>
-</section>
-
-<!-- SECTION THREE: SELECTED WORK -->
+<!-- SECTION TWO: SELECTED WORK -->
 <section class="home-section">
   <div class="section-head-row">
     <h2 class="section-header light-blue no-margin">Selected Work</h2>
@@ -49,9 +37,22 @@ title: Home
     <div class="project-entry">
       <div class="project-title-row">
         <h3 class="project-name light-blue no-margin">
+          <a href="https://github.com/achowd32/RISC-V" target="_blank">Pipelined RISC-V</a>
+        </h3>
+        <span class="project-meta"><a href="https://github.com/achowd32/RISC-V" target="_blank">github</a></span>
+      </div>
+      <div class="project-tags">
+        <span class="project-tag">hardware</span>
+        <span class="project-tag">verilog</span>
+      </div>
+      <p class="project-desc">A pipelined RISC-V processor written from scratch in Verilog.</p>
+    </div>
+    <div class="project-entry">
+      <div class="project-title-row">
+        <h3 class="project-name light-blue no-margin">
           <a href="https://github.com/achowd32/assert-bench" target="_blank">AssertBench</a>
         </h3>
-        <span class="project-meta">2025 · <a href="https://github.com/achowd32/assert-bench" target="_blank">github</a> · <a href="https://arxiv.org/abs/2506.11110" target="_blank">arXiv</a></span>
+        <span class="project-meta"><a href="https://github.com/achowd32/assert-bench" target="_blank">github</a> · <a href="https://arxiv.org/abs/2506.11110" target="_blank">arXiv</a></span>
       </div>
       <div class="project-tags">
         <span class="project-tag">research</span>
@@ -70,43 +71,7 @@ title: Home
         <span class="project-tag">ml</span>
         <span class="project-tag">web</span>
       </div>
-      <p class="project-desc">Two implementations of the NanoGPT architecture in TensorflowJS, using the Layers and Models APIs.</p>
-    </div>
-    <div class="project-entry">
-      <div class="project-title-row">
-        <h3 class="project-name light-blue no-margin">
-          <a href="https://github.com/achowd32/ocean-qap" target="_blank">Ocean-QAP</a>
-        </h3>
-        <span class="project-meta">2025 · <a href="https://github.com/achowd32/ocean-qap" target="_blank">github</a></span>
-      </div>
-      <div class="project-tags">
-        <span class="project-tag">quantum</span>
-        <span class="project-tag">optimization</span>
-        <span class="project-tag">hackathon</span>
-      </div>
-      <p class="project-desc">Python library using D-Wave's quantum annealer to solve time-dependent quadratic assignment problems. Built for IQuHack 2025.</p>
+      <p class="project-desc">Two implementations of the NanoGPT architecture in TensorflowJS, with both the Layers and Models APIs.</p>
     </div>
   </div>
-</section>
-
-<!-- SECTION FOUR: RECENT POSTS -->
-<section class="home-section">
-  <div class="section-head-row">
-    <h2 class="section-header light-blue no-margin">Recent Posts</h2>
-    <a class="section-more" href="{{ '/blog/' | relative_url }}">all posts →</a>
-  </div>
-  <ul class="post-list home-post-list">
-    {% for post in site.posts limit:3 %}
-      <li class="post-list-item">
-        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% assign blurb = post.description | default: post.excerpt %}
-        {% if blurb %}
-          <div class="post-excerpt">{{ blurb | strip_html }}</div>
-        {% endif %}
-      </li>
-    {% else %}
-      <li>No posts yet — check back soon.</li>
-    {% endfor %}
-  </ul>
 </section>
