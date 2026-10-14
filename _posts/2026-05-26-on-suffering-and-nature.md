@@ -1,7 +1,6 @@
 ---
 title: "On Suffering and Nature"
-subtitle: "This post is currently a draft! Will be updated soon."
-description: "On the quiet conflict between our aversion to suffering and our reverence for nature."
+description: "Human attitudes toward suffering and the natural order"
 date: 2026-05-28
 ---
 
@@ -20,7 +19,7 @@ I'd wager the following statement is generally uncontroversial: suffering is bad
 
 [^1]: There is, of course, a much wider discussion to be had about attitudes toward animal suffering. There is considerable nuance to the claim being made here, and I hope to go into that someday, but for this article we may be content to accept axiomatically that people are ill-disposed to animal suffering.
 
-In parallel, I want to illuminate another worldview that lurks in the human spirit: the propensity to romanticize nature. Who among us hasn't been moved by the sheer beauty we see when we journey into the mountains, the woods, or the beaches? Many of my favorite artworks are landscape paintings, and indeed the fame of landscape painters and movements like the Hudson River School are further evidence of this kind of romanticization of nature. And it makes complete sense that we should find such things beautiful — we evolved out of these very environments and lived among them for millennia. There even seems to be <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8125471/#sec3-ijerph-18-04790">empirical evidence</a> that being in nature is good for you, if any of my fellow Computer Science/Engineering majors had any doubt.
+Alongside this aversion sits another equally deep-rooted instinct: our tendency to romanticize nature. Who among us hasn't been moved by the sheer beauty we see when we journey into the mountains, the woods, or the beaches? Many of my favorite artworks are landscape paintings, and indeed the fame of landscape painters and movements like the Hudson River School are further evidence of this kind of romanticization of nature. And it makes complete sense that we should find such things beautiful — we evolved out of these very environments and lived among them for millennia.
 
 <figure>
   <img src="{{ '/assets/among_the_sierra_nevada.jpg' | relative_url }}" alt="Albert Bierstadt, Among the Sierra Nevada">
@@ -39,7 +38,7 @@ But if this relationship of suffering to evolution feels unconcerning, perhaps d
 
 These are not instances of suffering that happen, incidentally, to be a part of nature. The routine occurrence of these phenomena are <i>prerequisites for the existence of nature as we know it</i>.
 
-There is an aesthetic point to be made here: if suffering is so deeply embedded in nature that it is often far-fetched to divorce the two, musn't this recontextualize the way we experience beauty in nature? With this knowledge I can no longer stand atop a mountain and gaze at the beauty of the forest below without realizing its inhabitants must one day burn for its continued existence. But alas aesthetics does not operate within the domain of logic; no amount of contemplation on suffering could <i>entirely</i> change the visceral reaction I have to its beauty, nor do I particularly want it to.
+There is an aesthetic point to be made here: if suffering is so deeply embedded in nature that it is often far-fetched to divorce the two, mustn't this recontextualize the way we experience beauty in nature? With this knowledge, I can no longer stand atop a mountain and gaze at the beauty of the forest below without realizing its inhabitants must one day burn for its continued existence. But alas aesthetics does not operate within the domain of logic; no amount of contemplation on suffering could <i>entirely</i> change the visceral reaction I have to its beauty, nor do I particularly want it to.
 
 So perhaps the more salient point to be made here is the ethical one. What amounts to the romanticization of nature in the aesthetic domain is paralleled by our deification of the natural order in the ethical domain. That is to say, we instinctively enshrine the natural order — the natural processes by which humans are (largely) unaffected — as a good in and of itself. At the very least, most people view a natural state of affairs as an acceptable one. And the acceptance or rejection of this doctrine has significant consequences for our moral worldview.
 
@@ -52,9 +51,9 @@ So what are we to do about <i>natural</i>, rather than <i>artificial</i>, abomin
   <p class="pull-quote-cite">— @travistalks, in his excellent Substack article <a href="https://travistalks.substack.com/p/the-moral-status-of-predation">The Moral Status of Predation</a></p>
 </div>
 
-You might think that the ridicule levelled at this position is one of practicality. How are we supposed to eliminate predation? Do we kill all the predators? Doesn't that introduce more suffering??? Even if we desired such an outcome, how would we even manage to achieve it?????
+You might think that the ridicule levelled at this position is one of practicality. How are we supposed to eliminate predation? Do we kill all the predators? Doesn't that introduce more suffering? Even if we desired such an outcome, how would we even manage to achieve it?
 
-Unfortunately, I don't think this is the true cause of all the ridicule. People seem just as repulsed by the idea of eliminating predation even if we talk in purely hypothetical terms. Imagine a world in which humans have attained supreme scientific control of the environment, and wield the full force of genetic power. We could painlessly sterilize all predators to cause them to die out over time, and genetically modify prey species to reproduce at lower rates to maintain ecological balance. More generally, in this world, humans have also accounted for any ecological side-effects such an action could have. 
+But people seem just as repulsed by the idea of eliminating predation even if we talk in purely hypothetical terms. Imagine a world in which humans have attained supreme scientific control of the environment, and wield the full force of genetic power. We could painlessly sterilize all predators to cause them to die out over time, and genetically modify prey species to reproduce at lower rates to maintain ecological balance. More generally, in this world, humans have also accounted for any ecological side-effects such an action could have. 
 
 I introduced the aforementioned thought experiment to my friends recently, and polled them on their support for such an action on a scale from 1-10 (1 = "I really hate this proposal and would actively lobby against it", 10 = "I really love this proposal and would actively lobby in favor of it"). While there were indeed a wide range of responses, the most common answer was a 2! Here we have a group of people who all generally care about animals and think suffering is severely bad, but reject a proposal to massively reduce animal suffering!
 
@@ -72,7 +71,7 @@ I suspect the suffering that is added to the tank is not identified as problemat
 
 What I find particularly troubling about these "hard problems" are the little consideration they receive, in both societal and personal contexts. We are so undisturbed by the existence of suffering in a natural context that nobody pauses to think before introducing predators to their tank. When the <a href="https://en.wikipedia.org/wiki/Appeal_to_nature">appeal to nature fallacy</a> is so commonly identified as problematic in a human context, why is it so easily glossed over in a non-human one? Though I clearly have my views on nature's relationship to goodness, I am less concerned with the particular views most people adopt on the matter, and far more worried about the fact that the issue altogether evades our attention when we're not talking about human problems! 
 
-I have little else to say on the relationship between nature and suffering except to lament their tragic relationship to human intuition. Evolution is a devious thing which has imparted two conflicting instincts in our heads, for evolution cares little about moral consistency. A subtly insidious moral nature may well be a winning strategy in the game of survival. Coming to realise, over these past few weeks, that such an insidious nature dwells also within myself has been disconcerting, to say the least. Much of this post was about coming to terms with my own thoughts and intuitions, and understanding the importance of taking them seriously in a moral context. If nothing else, I hope it helps you do the same.
+I have little else to say on the relationship between nature and suffering except to lament their tragic relationship to human intuition. Evolution is a devious thing which has imparted two conflicting instincts in our heads, because evolution cares little for moral consistency. A subtly conflicting moral nature may well be a winning strategy in the game of survival. Coming to realise, recently, that such a nature dwells also within myself has been disconcerting. Much of this post was about coming to terms with my own thoughts and intuitions, and understanding the importance of taking them seriously in a moral context. If nothing else, I hope it helps you do the same.
 
 <!-- That they can simultaneously exist in so many people is a testament to just how subtly insidious our nature truly is.
 
